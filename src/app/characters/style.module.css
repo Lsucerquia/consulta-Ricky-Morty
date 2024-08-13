@@ -1,0 +1,26 @@
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    gap: 5px; /* Espacio entre los elementos */
+    justify-items: center; /* Centrar los elementos dentro de la celda */
+    margin-top: 10px;
+}
+
+.gridItem {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.characterImage {
+    width: 80%;
+    max-width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+

@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    color: rgb(239, 76, 11); /* Color de texto general */
+}
+
+.title {
+    color: #0070f3; /* Color azul para el título */
+    font-size: 2rem;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.link {
+    color: #0070f3; /* Color azul para el enlace */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
